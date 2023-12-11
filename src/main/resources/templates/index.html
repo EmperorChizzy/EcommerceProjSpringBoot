@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Application</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('/Users/Emperor Chizzy/IdeaProjects/EcommerceProjSpringBoot/src/main/java/com/example/ecommerceprojspringboot/B791AE03-3F7C-4EB0-9485-C41A35826571.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff; /* Set a light text color for better readability */
+        }
+
+        header {
+            background-color: #8B4513; /* Brown background for the header */
+            height: 45px; /* Height of the brown line */
+        }
+
+        nav {
+            position: absolute;
+            top: 5px; /* Adjust the top position to start below the brown line */
+            right: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for nav */
+            padding: 10px; /* Add padding for better visibility */
+            border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; /* Set a light text color for navigation links */
+            margin-left: 20px;
+            font-weight: bold;
+            transition: color 0.3s ease; /* Add a smooth transition effect on color change */
+        }
+
+        nav a:hover {
+            color: #eee; /* Change color on hover for better interaction */
+        }
+    </style>
+</head>
+<body>
+<header></header> <!-- Brown line at the top -->
+<nav>
+    <a href="/user/register">Sign up</a>
+    <a href="/user/login">Login</a>
+</nav>
+</body>
+</html>
